@@ -28,4 +28,14 @@ public class Apple extends Fruit{
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Apple{");
+        sb.append("name='").append(name).append('\'');
+        sb.append(", weight='").append(getWeight()).append('\'');
+        sb.append(", color='").append(getColor()).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
 }

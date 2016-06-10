@@ -7,9 +7,7 @@ import java.util.List;
 /**
  * Created by HCLEE on 2016. 6. 9..
  *
- * 기존에 OOP 캡슐화 전략 디자인패턴을 사용하지 않아서, lambda 가 다가오지 않는 것으로 생각된다.
- * ApplePredicate 예제를 이해해서 패턴을 익힐 수 있도록 해야할 듯 하다.
- * 한마디로 lambda 를 이용하면 기존의 익명 클래스를 생성하던 복잡한 코드를 단순화 할 수 있는 것.
+ *  lambda 를 이용하면 기존의 익명 클래스를 생성하던 복잡한 코드를 단순화 할 수 있는 것.
  *
  * @author eglowc
  */
@@ -21,7 +19,6 @@ public class ComparatorTest {
 
         printLoopInventory(inventory);
 
-        // sort 를 생전 안써봐서 이게 뭔지도 잘 모르겠다.
         inventory.sort(new Comparator<Apple>() {
             @Override
             public int compare(Apple a1, Apple a2) {
