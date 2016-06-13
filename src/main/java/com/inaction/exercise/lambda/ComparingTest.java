@@ -1,4 +1,4 @@
-package com.inaction;
+package com.inaction.exercise.lambda;
 
 import com.inaction.ex.Apple;
 

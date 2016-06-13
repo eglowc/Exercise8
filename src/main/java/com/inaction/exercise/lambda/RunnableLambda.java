@@ -1,4 +1,4 @@
-package com.inaction;
+package com.inaction.exercise.lambda;
 
 /**
  * Created by HCLEE on 2016. 6. 9..
